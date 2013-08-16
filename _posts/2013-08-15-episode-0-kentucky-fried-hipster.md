@@ -42,7 +42,7 @@ msallowfullscreen="msallowfullscreen">
 ## Show Notes
 
 <iframe
-src="https://skydrive.live.com/embed?cid=CD7C80B1FAC13044&resid=CD7C80B1FAC13044%211944&authkey=AF09LN90SRM0FSw&em=2&wdAr=1.7777777777777776O"
+src="https://skydrive.live.com/embed?cid=CD7C80B1FAC13044&amp;resid=CD7C80B1FAC13044%211944&amp;authkey=AF09LN90SRM0FSw&amp;em=2&amp;wdAr=1.7777777777777776O"
 width="610px" height="366px" frameborder="0">
     This is an embedded <a
     target="_blank" href="http://office.com">Microsoft Office</a>
