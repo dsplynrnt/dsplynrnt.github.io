@@ -18,4 +18,4 @@ prefer old school audio and mainstream podcast software, you can
 
 [itunes]: http://dsplynrnt.com/itunes
 
-<!-- vim: ai spell tw=72 -->
+<!-- vim: ai spell tw=72: -->
