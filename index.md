@@ -1,17 +1,10 @@
 ---
-layout: page
+layout: index
 title: Display & Rant
 tagline: Show and tell with opinionated adults
+show_jumbotron: true
 ---
 {% include JB/setup %}
-
-{% assign latest_ep = site.categories.episode |first %}
-<div class="jumbotron">
-  <div class="container">
-     <h1>Now Playing</h1>
-     <p><a href="{{ latest_ep.url }}">{{ latest_ep.title }}</a></p>
-  </div>
-</div>
 
 Display & Rant is a podcast from [Max Battcher][mjb] and [Jordan
 Wages][jkw].
@@ -26,7 +19,4 @@ prefer old school audio and mainstream podcast software, you can
 
 [itunes]: http://dsplynrnt.com/itunes
 
-{% assign latest_post = site.posts |first %}
-Latest post: [{{ latest_post.title }}]({{ latest_post.url }})
-
-<!-- vim: ai spell tw=72: -->
+<!-- vim: ai spell tw=72 : -->

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{% include JB/setup %}
+
+
+<div class="page-header">
+  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+</div>
+
+<div class="row">
+  <div class="col-md-10">
+    {{ content }}
+  </div>
+  <div class="col-md-2">
+    {% assign latest_post = site.posts |first %}
+    <p>Latest post: <a href="{{ latest_post.url }}">{{ latest_post.title }}</a></p>
+  </div>
+</div>

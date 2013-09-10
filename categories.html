@@ -6,12 +6,15 @@ group: navigation
 ---
 {% include JB/setup %}
 
+<div class="row">
+<div class="col-md-4 col-md-push-8">
 <ul class="tag_box inline">
   {% assign categories_list = site.categories %}
   {% include JB/categories_list %}
 </ul>
+</div>
 
-
+<div class="col-md-8 col-md-pull-4">
 {% for category in site.categories %} 
   <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
   <ul>
@@ -19,4 +22,5 @@ group: navigation
     {% include JB/pages_list %}
   </ul>
 {% endfor %}
-
+</div>
+</div>
