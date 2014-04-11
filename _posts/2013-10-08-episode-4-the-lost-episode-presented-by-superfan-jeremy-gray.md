@@ -3,7 +3,7 @@ layout: post
 title: "Episode 4: The Lost Episode, Presented By Superfan Jeremy Gray"
 description: "Audio quality warning. Topics include beer, 3D, Cards Against Humanity, Steam OS, Pizza, and a diversion towards irrational exuberance."
 category: episode
-tags: [beer, 3D, CAH, steam, pizza, yatta, Peelander-Z]
+tags: [beer, 3D, CAH, steam, pizza, yatta, Peelander-Z, lost]
 ---
 {% include JB/setup %}
 
